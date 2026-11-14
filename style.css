@@ -59,22 +59,15 @@ a {
   color: #dddddd;
 }
 
-/* Times New Roman for letter content only */
+
+/* Force Times New Roman on letter text */
 
 main p,
-main article,
-main .letter,
+main article p,
+main .letter p,
 main .letter-content,
 main .letter-body {
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Times New Roman", Times, serif !important;
   font-size: 18px;
   line-height: 1.9;
-}
-
-/* Keep header, navigation, and footer fonts unchanged */
-.site-header,
-.site-header *,
-footer,
-footer * {
-  font-family: inherit;
 }
