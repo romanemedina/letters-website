@@ -60,10 +60,10 @@ a {
 }
 
 
-/* Georgia font for letter text only */
+/* Times New Roman for letter text only */
 
 .letter .body {
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: "Times New Roman", Times, serif;
   font-size: 18px;
   line-height: 1.9;
 }
