@@ -3,7 +3,7 @@ import json
 from pathlib import Path
 from datetime import datetime
 
-root = Path(__file__).resolve().parents[1]
+root = Path(__file__).resolve().parent
 items = []
 
 def parse_date(value):
