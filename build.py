@@ -15,7 +15,9 @@ def parse_date(value):
             pass
     return datetime.min
 
-for path in (root / 'content' / 'letters').glob('*.json'):
+for path in (root / 'content' / 'letters').iterdir():
+    if path.suffix.lower() not in ('.json', '.md'):
+        continue
     try:
         entry = json.loads(path.read_text(encoding='utf-8'))
         if not isinstance(entry, dict):
