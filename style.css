@@ -60,14 +60,14 @@ a {
 }
 
 
-/* Force Times New Roman on letter text */
+/* Georgia font for letters only */
 
 main p,
 main article p,
 main .letter p,
 main .letter-content,
 main .letter-body {
-  font-family: "Times New Roman", Times, serif !important;
+  font-family: Georgia, "Times New Roman", serif !important;
   font-size: 18px;
   line-height: 1.9;
 }
