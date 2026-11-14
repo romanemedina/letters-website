@@ -1,0 +1,24 @@
+
+media:
+  input: media
+  output: /media
+
+content:
+  - name: letters
+    label: Letters
+    type: collection
+    path: content/letters
+    format: json
+    fields:
+      - name: title
+        label: Letter Title
+        type: string
+        required: true
+      - name: date
+        label: Date
+        type: string
+        required: true
+      - name: body
+        label: Letter
+        type: text
+        required: true
