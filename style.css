@@ -58,3 +58,23 @@ button,
 a {
   color: #dddddd;
 }
+
+/* Times New Roman for letter content only */
+
+main p,
+main article,
+main .letter,
+main .letter-content,
+main .letter-body {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 18px;
+  line-height: 1.9;
+}
+
+/* Keep header, navigation, and footer fonts unchanged */
+.site-header,
+.site-header *,
+footer,
+footer * {
+  font-family: inherit;
+}
