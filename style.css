@@ -72,3 +72,9 @@ a {
   font-family: inherit;
   margin: 0 0 1.3em;
 }
+
+/* Times New Roman for homepage dates */
+
+.letter-links a {
+  font-family: "Times New Roman", Times, serif;
+}
