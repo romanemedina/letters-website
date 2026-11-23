@@ -78,3 +78,9 @@ a {
 .letter-links a {
   font-family: "Times New Roman", Times, serif;
 }
+
+/* Hide website footer */
+footer,
+.site-footer {
+    display: none !important;
+}
